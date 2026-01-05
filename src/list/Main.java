@@ -21,9 +21,12 @@ public class Main {
         //sort the student ascending logic
         studs.sort((s1,s2)-> Double.compare(s1.getGpa(), s2.getGpa()));
         System.out.println("\n--- Sorted by GPA (Descending) ---");
+        for(Student s: studs) {
+            System.out.println(s);
+        }
 
         //chanining comparators
-        Comparator<Student> customLogic = Comparator.comparing(Studnet::getGpa).reversed().thenComparing(Student::getName);
+        Comparator<Student> customLogic = Comparator.comparing(Student::getGpa).reversed().thenComparing(Student::getName);
         studs.sort(customLogic);
 
         System.out.println("\n --- Sorted by GPA (Descending) and Name---");
