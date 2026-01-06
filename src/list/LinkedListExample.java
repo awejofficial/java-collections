@@ -5,14 +5,16 @@ import java.util.LinkedList;
 
 public class LinkedListExample {
     public static void main(String[] args) {
+        // Linkedlist Integer Type
         LinkedList<Integer> list = new LinkedList<>(Arrays.asList(1,2,3,4,5,6));
 
           list.addFirst(0);
           list.addLast(7);
           list.get(3);
-         // list.removeIf(n-> n%2==0); // removes the even elements in that
+         // list.removeIf(n-> n%2==0); // removes the even elements in that (Anonymous Function)
          // list.removeIf(n-> n%2!=0); // removes the odd elements in that
          System.out.print(list);
+         
         // Creted LinkeList Of String and Remove Some Elements
         System.out.println("---- Before Removing ----"); //animals which has some other names
         LinkedList<String> animals = new LinkedList<>(Arrays.asList("dog","cat","ujef","awej"));
