@@ -44,7 +44,7 @@ public class StackExample {
         System.out.println("Clearing the LinkedList:"+ linkedList);
 
         System.out.println("\n\n---------- ArrayList as a stack: ----------");
-        
+        System.out.println("Peek:"+ stack.peek());
 
     }
 
