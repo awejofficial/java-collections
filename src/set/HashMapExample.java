@@ -22,7 +22,6 @@ public class HashMapExample {
     map.put(5,"five");
     map.remove(5,"five");
     System.out.println("Updated HashMap:"+ map);
-    map.
     
 
     // }
