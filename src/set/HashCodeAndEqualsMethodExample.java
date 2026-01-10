@@ -27,7 +27,6 @@ public class HashCodeAndEqualsMethodExample {
     for(String key: map1.keySet()) {
         System.out.println("Key: "+ key + ", Roll no:" + map1.get(key));
     }
-        
     }
 
 }
